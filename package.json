@@ -1,0 +1,17 @@
+{
+  "name": "https-mitm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "gen-cert": "./sh.sh gen-cert",
+    "clear-cert": "./sh.sh clear-cert",
+    "clear-data": "./sh.sh clear-data"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
